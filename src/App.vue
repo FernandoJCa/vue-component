@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import ButtonDemo from './components/ButtonDemo.vue'
+import ComponentDemo from './components/ComponentDemo.vue'
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-100 flex items-center justify-center">
-    <ButtonDemo />
+  <div class="min-h-screen bg-background flex items-center justify-center p-4">
+    <ComponentDemo />
   </div>
 </template>
 
